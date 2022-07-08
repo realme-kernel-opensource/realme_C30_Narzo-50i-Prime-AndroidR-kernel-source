@@ -1,0 +1,14 @@
+#
+# SPRD HX9031 Driver
+#
+
+config HX9031_SAR
+	tristate "TianYiHeXin HX9031_Sar driver"
+	depends on I2C
+	help
+	  Say Y here if you have TianYiHeXin HX9031_Sar controller
+	  chip in your system.
+	  If unsure, say Y.
+
+	  To compile this driver as a module, choose M here: the
+	  module will be called HX9031_Sar Key.
